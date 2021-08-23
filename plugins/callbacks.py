@@ -36,7 +36,7 @@ async def cb_handler(client, query):
                    InlineKeyboardButton("SUPPORT", url="https://t.me/TEAMLADZ_BOTHUB"),
                    InlineKeyboardButton("DEV", url="https://t.me/ok_bie_bot")
                 ],
-              
+              [
                    InlineKeyboardButton("UPDATES", url="https://t.me/team_lad")
                 ]
             ]
