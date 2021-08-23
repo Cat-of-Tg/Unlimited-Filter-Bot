@@ -217,14 +217,14 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                   InlineKeyboardButton("𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝙷𝚎𝚕𝚙", callback_data="help_data")
+                   InlineKeyboardButton("HELP", callback_data="help_data")
                 ],
                 [
-                   InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
-                   InlineKeyboardButton("🔊𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="t.me/mo_tech_yt")
+                   InlineKeyboardButton("SUPPORT", url="https://t.me/teamladz_bothub"),
+                   InlineKeyboardButton("UPDATES", url="t.me/team_lad")
                 ],
                 [
-                   InlineKeyboardButton("❣️𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝚂𝚞𝚙𝚙𝚘𝚛𝚝❣️", url="https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ")
+                   InlineKeyboardButton("Dev", url="https://t.me/ok_bie_bot")
                 ]
             ]
         ),
@@ -250,11 +250,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
-                    InlineKeyboardButton("About Me👨‍💼", callback_data="about_data")
+                    InlineKeyboardButton("Updates", url="https://t.me/team_LAD"),
+                    InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("🖥️ 𝙷𝚘𝚠 𝚝𝚘 𝙳𝚎𝚙𝚕𝚘𝚢 🖥️", url="https://youtu.be/KrpqqNNLUSU")
+                    InlineKeyboardButton("Support", url="https://t.me/Teamladz_bothub")
                 ]
             ]
         ),
@@ -271,7 +271,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "⛓️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ⛓️", url="https://github.com/MRK-YT/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://t.me/ok_bie_bot")
                 ],
                 [
                     InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
