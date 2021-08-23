@@ -52,7 +52,7 @@ async def cb_handler(client, query):
     elif query.data == "help_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
-            [
+
                 [
                     InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
                     InlineKeyboardButton("About Me👨‍💼", callback_data="about_data")
